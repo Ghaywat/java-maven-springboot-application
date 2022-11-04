@@ -4,7 +4,7 @@ node ('docker-client') {
 
       stage ('Code from SCM') {
 
-        git credentialsId: 'Git_Hub', url: 'https://github.com/vinay1074/web_app.git'
+        git credentialsId:  'https://github.com/Ghaywat/java-maven-springboot-application.git'
 
       }
 
